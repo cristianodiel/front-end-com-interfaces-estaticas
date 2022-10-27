@@ -1,0 +1,139 @@
+
+
+body, html {
+    height: 100%;
+    
+  }
+  
+   * {
+    box-sizing: border-box;
+    margin:0px;
+  } 
+
+.bg-image {
+    /* The image used */
+    background-image: url("Chessboard.png");
+  
+    /* Add the blur effect */
+    backdrop-filter: blur(8px);
+    /* -webkit-filter: blur(8px); */
+  
+    /* Full height */
+    height: 100%;
+    width: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* Position text in the middle of the page/image */
+.title01 {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    margin:10px;
+   
+    /*z-index: 2;*/
+    width: 95%;
+    padding: 10px;
+    text-align: center;
+    text-shadow:2px 2px 2px rgb(5, 5, 5);
+
+  }
+.title02 {
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: static;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    text-shadow:2px 2px 2px rgb(8, 8, 8);
+    font-style: bold;
+}
+  
+#menu{
+    background-color: rgb(175, 175, 198);
+    background-color: rgba(175,175,198, 0.6);
+    padding:20px;
+    width: 95%;
+    margin:10px;
+    text-shadow:2px 2px 2px rgb(239, 237, 237);
+   
+    
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    
+    
+}
+#menu a{
+    
+    text-decoration: none;/*retira o sublinhado no hyperlink*/
+    color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+    margin: 10px;
+    width:10%;
+    
+    
+}
+#menu a:hover{/* mouse over link */
+    color:blue;
+}
+.text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: static;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    text-shadow:2px 2px 2px rgb(8, 8, 8);
+
+  }
+
+/*
+
+main{
+    margin: 10%;
+}*/
+/*
+img{
+    width: 100%;
+}*/
+/*
+*/
+
+/*
+.title02{
+    color:white;
+    /*font-size:2em ;*/ /*tamanho da fonte*//*
+    text-align: center;
+    text-shadow:2px 2px 2px rgb(53, 53, 53);
+    
+}
+.referencia{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+.referencia a{
+    text-decoration: none;/*retira o sublinhado no hyperlink*//*
+    color:black;
+}
+.referencia a:hover{/* mouse over link *//*
+    color:blue;
+}
+footer{
+    font-weight:bold;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+*/

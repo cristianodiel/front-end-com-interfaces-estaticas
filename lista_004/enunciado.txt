@@ -1,0 +1,7 @@
+Projeto:
+● Pensar em um tema;
+● Pode ser a escolha do aluno;
+● Portifólio, site para um empresa família, site para uma
+Startup futura, e etc...
+● Lembrar de utilizar o máximo possível de TAGs- HTML e CSS;
+● A pesquisa faz parte do desenvolvimento do projeto
